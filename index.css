@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+
+body {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   background: #f5f3f2;
+}
+
+.container {
+   width: 600px;
+   background: whitesmoke;
+}
+
+header {
+   background-image: url("https://image.shutterstock.com/image-photo/burger-banner-raw-ingredients-grilled-260nw-1769975306.jpg");
+   font-family: "Smythe", cursive;
+   font-style: normal;
+   font-weight: 400;
+   color: #ffffff;
+   text-align: center;
+   font-size: 22.4216px;
+   padding: 30px 30px 40px 30px;
+}
+
+.h1 {
+   font-size: 39px;
+   margin: 0;
+}
+
+header p {
+   margin: 0;
+}
+
+/* Javascript rendering */
+
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+.item {
+  display: flex;
+  font-family: "Smythe", cursive;
+  width: 600px;
+  justify-content: space-between;
+  margin-top: 67.5px;
+}
+
+.txt {
+  display: flex;
+  gap: 31px;
+}
+
+.img {
+  font-size: 78.72px;
+  margin: 0;
+}
+
+.food {
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0;
+}
+
+.ingredient {
+  margin: 0;
+  line-height: 24px;
+  color: #8B8B8B;
+}
+
+.cost {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  font-size: 32px;
+  font-weight: 200;
+  font-family: 'Inter';
+  border: 1.5px solid #DEDEDE;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.line {
+  position: absolute;
+  left: 50px;
+  margin-top: 140px;
+  width: 504px;
+  height: 0px;
+  border: 1px solid #D2D2D2;
+}
